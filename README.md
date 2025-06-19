@@ -23,53 +23,29 @@ Esta aplicación implementa un sistema simple de SharedPreferences que permite:
 - SDK objetivo: API 34 (Android 14)
 - Kotlin 1.9.0
 
-## 🛠️ Instalación
 
-1. Clona el repositorio:
-```bash
-git clone https://github.com/GxJohan/app_s9.git
-```
+## 🧩 Funcionalidades implementadas
 
-2. Abre el proyecto en Android Studio
+### ✅ Actividad Principal (`MainActivity`)
+- Guarda nombre de usuario y genera ID aleatorio.
+- Verifica si es la primera vez que se abre la app.
+- Muestra un contador de visitas (se incrementa al abrir la app).
+- Permite limpiar todos los datos almacenados.
+- Cambio dinámico de Modo Claro / Modo Oscuro mediante `Switch`.
+- Acceso a perfil de usuario.
 
-3. Sincroniza el proyecto con Gradle
+<img src="Cap_1.jpeg" width="250" />
 
-4. Ejecuta la aplicación en un emulador o dispositivo físico
+<img src="Cap_2.jpeg" width="250" />
 
-## 💻 Uso
+<img src="Cap_3.jpeg" width="250" />
 
-1. **Guardar datos**: Ingresa tu nombre y presiona "Guardar"
-2. **Cargar datos**: Presiona "Cargar" para ver los datos guardados
-3. **Limpiar datos**: Presiona "Limpiar Todo" para eliminar todas las preferencias
+<img src="Cap_4.jpeg" width="250" />
 
-## 📂 Estructura del Proyecto
 
-```
-app_s9/
-├── app/
-│   └── src/
-│       └── main/
-│           ├── java/com/example/app_s9/
-│           │   ├── MainActivity.kt
-│           │   └── SharedPreferencesHelper.kt
-│           └── res/
-│               └── layout/
-│                   └── activity_main.xml
-└── SharedPreferences_Guide.md
-```
 
-## 📖 Documentación
 
-Para más detalles sobre la implementación y cómo extender la funcionalidad, consulta [SharedPreferences_Guide.md](SharedPreferences_Guide.md)
 
-## 🤝 Contribuciones
-
-Las contribuciones son bienvenidas. Por favor:
-1. Fork el proyecto
-2. Crea una rama para tu feature (`git checkout -b feature/AmazingFeature`)
-3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
-4. Push a la rama (`git push origin feature/AmazingFeature`)
-5. Abre un Pull Request
 
 ## 📄 Licencia
 
